@@ -10,3 +10,30 @@ LLM as a Judge is designed to replace or assist human evaluation by using a powe
 🔄 Supports pairwise comparison and ranking
 🧩 Flexible prompt design for different evaluation tasks
 ⚡ Scalable for batch evaluation
+
+▶️ Getting Started
+1. Build the Docker Image
+docker build -t llm-judge .
+2. Run the Container
+docker run -it llm-judge
+
+(Or use docker-compose if configured)
+
+🧪 How It Works
+Input prompt and model responses
+LLM evaluates responses using predefined criteria
+Outputs scores and/or rankings
+Results saved for analysis
+📈 Use Cases
+LLM benchmarking
+Prompt evaluation
+Response quality scoring
+Reducing manual evaluation effort
+📌 Future Improvements
+Multi-model judge system
+Web dashboard for visualization
+API integration (e.g., OpenAI, local LLMs)
+Fine-tuned evaluation models
+📄 License
+
+MIT License
